@@ -16,11 +16,13 @@ public class StudentService implements StudentDAO {
 
     @Override
     public Student getStudentByEmail(String sEmail) {
-        return null;
+        return entityManager.createNamedQuery("Student.getStudentByEmail", Student.class)
+                .setParameter("sEmail", sEmail).getSingleResult();
     }
 
     @Override
-    public boolean validateStudent(String sEmail, String sPassword) {
+    public boolean validateStudent(String sEmail, String sPass) {
+        //TODO: implement this method
         return false;
     }
 

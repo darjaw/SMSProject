@@ -14,7 +14,8 @@ import java.util.List;
         @NamedQuery(name="Student.getAllStudents",
                 query="from Student"),
         @NamedQuery(name="Student.getStudentByEmail",
-                query="Select c from Student c where c.sEmail = :email")
+                query="Select c from Student c where c.sEmail = :sEmail"),
+        @NamedQuery(name="Student.validateStudent",query = "select s from Student s where s.sEmail = :sEmail and s.sPass = :sPassword")
 })
 public class Student implements Serializable {
 
@@ -38,6 +39,7 @@ public class Student implements Serializable {
     }
     public Student(){}
 
+    //getters and setters
     public String getsEmail() {
         return sEmail;
     }

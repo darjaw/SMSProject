@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8cd2d3-ac7e-44e1-a33b-49e27ad4b1b7" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/README.md" afterDir="false" />
+    <list default="true" id="3d8cd2d3-ac7e-44e1-a33b-49e27ad4b1b7" name="Changes" comment="Update README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,16 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tiere/OneDrive/Documents/code/Java/PerScholas/SMS/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tiere/OneDrive/Documents/code/Java/PerScholas/SMS/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.40114942",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tiere\OneDrive\Documents\code\Java\PerScholas\SMS\src\main\resources" />
@@ -74,6 +78,8 @@
       <recent name="C:\Users\tiere\OneDrive\Documents\code\Java\PerScholas\SMS\src\main\java\jpa\entitymodels" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tiere\OneDrive\Documents\code\Java\PerScholas\SMS" />
+      <recent name="C:\Users\tiere\OneDrive\Documents\code\Java\PerScholas\SMS\src" />
       <recent name="C:\Users\tiere\OneDrive\Documents\code\Java\PerScholas\SMS\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -117,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652921121971</updated>
       <workItem from="1653066463129" duration="1277000" />
-      <workItem from="1653218994047" duration="7102000" />
+      <workItem from="1653218994047" duration="11905000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1653225721073</created>
@@ -126,7 +132,35 @@
       <option name="project" value="LOCAL" />
       <updated>1653225721073</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added README &amp; updated methods in StudentService">
+      <created>1653227419216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227419216</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Moved README.md">
+      <created>1653227570398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227570398</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update README.md">
+      <created>1653227652658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227652658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update README.md">
+      <created>1653227687721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227687721</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +179,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added README &amp; updated methods in StudentService" />
+    <MESSAGE value="Moved README.md" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
 </project>
