@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8cd2d3-ac7e-44e1-a33b-49e27ad4b1b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/dao/CourseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/dao/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SMSRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentCourses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentCoursesID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="3d8cd2d3-ac7e-44e1-a33b-49e27ad4b1b7" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +117,16 @@
       <option name="presentableId" value="Default" />
       <updated>1652921121971</updated>
       <workItem from="1653066463129" duration="1277000" />
-      <workItem from="1653218994047" duration="5024000" />
+      <workItem from="1653218994047" duration="7102000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1653225721073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653225721073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,5 +142,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

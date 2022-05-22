@@ -1,5 +1,6 @@
 package jpa.service;
 
+import jakarta.persistence.EntityManager;
 import jpa.dao.StudentDAO;
 import jpa.entitymodels.Course;
 import jpa.entitymodels.Student;
@@ -7,10 +8,10 @@ import jpa.entitymodels.Student;
 import java.util.List;
 
 public class StudentService implements StudentDAO {
-
+    EntityManager entityManager;
     @Override
     public List<Student> getAllStudents() {
-        return null;
+        return entityManager.createNamedQuery("Student.getAllStudents", Student.class).getResultList();
     }
 
     @Override
