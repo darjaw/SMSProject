@@ -22,17 +22,27 @@ public class StudentService implements StudentDAO {
 
     @Override
     public boolean validateStudent(String sEmail, String sPass) {
-        //TODO: implement this method
-        return false;
+        try {
+            //use sEmail to make a Student object
+            Student unverifiedStudent = getStudentByEmail(sEmail);
+            //if student is found returns true, else false
+            return unverifiedStudent.getsEmail().equals(sEmail) && unverifiedStudent.getsPass().equals(sPass);
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     @Override
     public void registerStudentToCourse(String sEmail, int cId) {
+        //TODO: implement this method
+        //if student is not registered to course, register student to course
 
+        //if student is registered to course, do not register student to course print error message
     }
 
     @Override
     public List<Course> getStudentCourses(String sEmail) {
+        //TODO: implement this method
         return null;
     }
 }

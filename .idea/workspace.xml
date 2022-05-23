@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8cd2d3-ac7e-44e1-a33b-49e27ad4b1b7" name="Changes" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jpa/service/StudentServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" afterDir="false" />
@@ -20,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,6 +65,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/tiere/OneDrive/Documents/code/Java/PerScholas/SMS/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -82,8 +85,14 @@
       <recent name="C:\Users\tiere\OneDrive\Documents\code\Java\PerScholas\SMS\src" />
       <recent name="C:\Users\tiere\OneDrive\Documents\code\Java\PerScholas\SMS\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="jpa.service" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SMSRunner">
@@ -124,6 +133,7 @@
       <updated>1652921121971</updated>
       <workItem from="1653066463129" duration="1277000" />
       <workItem from="1653218994047" duration="11905000" />
+      <workItem from="1653282385744" duration="7422000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1653225721073</created>
