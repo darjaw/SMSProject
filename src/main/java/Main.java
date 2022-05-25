@@ -1,18 +1,9 @@
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
+import jpa.entitymodels.Student;
+import jpa.service.StudentService;
 
 public class Main {
     public static void main(String[] args) {
-        SessionFactory factory = new
-                Configuration().configure().buildSessionFactory();
-        Session session = factory.openSession();
-        Transaction t = session.beginTransaction();
-
-        t.commit();
-        factory.close();
-        session.close();
-        System.out.println("successfully created user table");
-    }
+        StudentService studentService = new StudentService();
+        Student student = studentService.getStudentByEmail("htaffley6@columbia.edu");
+        System.out.println(student.getsName());    }
 }

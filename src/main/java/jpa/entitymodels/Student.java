@@ -2,7 +2,6 @@ package jpa.entitymodels;
 
 import jakarta.persistence.*;
 
-import java.io.Serial;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +25,7 @@ public class Student implements Serializable {
     private String sName;
     @Column(name = "password",length = 50, nullable = false)
     private String sPass;
-    @ManyToMany(targetEntity = Course.class, cascade = {CascadeType.ALL})
+    @ManyToMany(targetEntity = Course.class, cascade = {CascadeType.ALL}, fetch = FetchType.EAGER)
     private List<Course> sCourses = new ArrayList<>();
 
     //constructors
@@ -69,6 +68,20 @@ public class Student implements Serializable {
 
     public void setsCourses(List<Course> sCourses) {
         this.sCourses = sCourses;
+    }
+
+//equals
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Student student = (Student) o;
+
+        if (!sEmail.equals(student.sEmail)) return false;
+        if (!sName.equals(student.sName)) return false;
+        if (!sPass.equals(student.sPass)) return false;
+        return sCourses.equals(student.sCourses);
     }
 }
 

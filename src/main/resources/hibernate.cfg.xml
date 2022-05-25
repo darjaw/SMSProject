@@ -14,15 +14,13 @@
         <!-- Maria DB dialect -->
         <property name="dialect">org.hibernate.dialect.MariaDBDialect</property>
         <!-- Echo all executed SQL to stdout -->
-        <property name="hibernate.show_sql" >true </property>
-        <property name="hibernate.format_sql" >true </property>
+<!--        <property name="hibernate.show_sql" >true </property>-->
+<!--        <property name="hibernate.format_sql" >true </property>-->
         <!--   set the current session context -->
         <property name="current_session_context_class">thread</property>
         <!--   Mapping entity file -->
         <mapping class="jpa.entitymodels.Student"/>
         <mapping class="jpa.entitymodels.Course"/>
-
-
 
     </session-factory>
 </hibernate-configuration>
